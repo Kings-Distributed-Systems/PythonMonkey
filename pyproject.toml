@@ -28,6 +28,8 @@ include = [
   { path = "CMakeLists.txt", format = "sdist" },
   { path = "*.sh", format = "sdist" },
   { path = "mozcentral.version", format = "sdist" },
+  # Add marker file for pep561
+  "python/pythonmonkey/py.typed",
 ]
 
 
